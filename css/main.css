@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -18,8 +19,26 @@ footer {
 .sigmar {
   font-family: Sigmar One, cursive;
   color: #b20953;
+  text-align: center;
 }
 
 p {
   font-family: Georgia;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  border-radius: .4em;
+  display: inline-block;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 0 .3em;
+
+
 }
