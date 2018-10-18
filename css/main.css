@@ -35,17 +35,18 @@ small {
   font-family: "Sigmar One", cursive;
   color: #b20953;
 }
+
 h1 {
   font-size: 3rem;
   text-align: center;
   margin: 0;
 }
+
 h2 {
   font-size: 1.875rem;
   padding: 0;
   text-align: left;
 }
-
 
 a {
   text-decoration: none;
