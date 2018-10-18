@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #ffe500;
 }
@@ -14,12 +18,30 @@ header {
 footer {
   background-color: #ffe500;
   text-align: center;
+  padding: .75em;
+}
+
+main {
+  padding: 0 .75em;
+}
+
+small {
+  font-size: .75rem;
 }
 
 .sigmar {
   font-family: Sigmar One, cursive;
   color: #b20953;
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
   text-align: center;
+}
+h2 {
+  font-size: 1.875rem;
+  padding: 0;
+  text-align: left;
 }
 
 p {
@@ -35,10 +57,27 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  background-color: #cc1465;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 nav li {
+  font-size: 1.125rem;
   list-style-type: none;
   display: inline-block;
   margin: 0 0 .3em;
+}
 
+.current {
+  background-color: #b20953;
+}
 
+img {
+  width: 100%;
 }
